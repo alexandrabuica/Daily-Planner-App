@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "612841539236",
+    "firebase_url": "https://androidbuicaboghiu-default-rtdb.firebaseio.com",
+    "project_id": "androidbuicaboghiu",
+    "storage_bucket": "androidbuicaboghiu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612841539236:android:44b1582804efb6409e4831",
+        "android_client_info": {
+          "package_name": "com.example.proiectandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612841539236-03fte11bkt3hsqf3tgsea6cc79bnpocc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc3cAVNLbKzhYG6JKiO2hGuD9a2_vl5FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612841539236-03fte11bkt3hsqf3tgsea6cc79bnpocc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

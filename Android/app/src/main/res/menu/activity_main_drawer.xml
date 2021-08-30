@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/main_nav_calendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/main_nav_daily" />
+
+        <item
+            android:id="@+id/main_nav_meals"
+            android:icon="@drawable/ic_meal"
+            android:title="@string/main_nav_meals" />
+
+        <item
+            android:id="@+id/main_nav_details"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/main_nav_details" />
+
+        <item
+            android:id="@+id/main_nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="@string/main_nav_feedback" />
+
+        <item
+            android:id="@+id/main_nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/main_nav_logout" />
+
+    </group>
+</menu>

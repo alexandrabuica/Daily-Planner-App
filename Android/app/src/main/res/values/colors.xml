@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="redMain">#522882</color>
+    <color name="whiteMain">#FFFFFF</color>
+    <color name="btnYellow">#F5BD1F</color>
+    <color name="viewRed">#FFD93D</color>
+    <color name="viewGrey">#495057</color>
+    <color name="btnUser">#5D2689</color>
+    <color name="clrStyle">#cbc0d3</color>
+    <color name="bmiyellow">#ffec5c</color>
+    <color name="bmigreen">#80b918</color>
+    <color name="bmiorange">#ffc600</color>
+    <color name="bmired">#e12c2c</color>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FeedbackFragment"
+    android:id="@+id/main_fl_container"
+    >
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="@color/whiteMain"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/armata"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_wha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="22 years | ADMIN"
+        android:textColor="@color/whiteMain"
+        android:textAlignment="center"
+        android:fontFamily="@font/armata"
+        android:layout_marginTop="100dp"
+        android:textSize="24sp"/>
+
+
+    <TextView
+        android:id="@+id/tv_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/bmi"
+        android:textColor="@color/whiteMain"
+        android:textSize="16sp"
+        android:background="#000000"
+        android:textAlignment="gravity"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:fontFamily="@font/armata"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+        <TextView
+           android:id="@+id/tv_wh"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text=" 80 kg | 178 cm"
+           android:fontFamily="@font/armata"
+           android:textStyle="bold"
+           android:textSize="16sp"
+           android:textColor="#000000"
+           android:layout_marginTop="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+           />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#000000"
+        android:id="@+id/text_bmi"
+        android:fontFamily="@font/armata"
+        android:textColor="@color/whiteMain"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="340dp"
+        android:weightSum="4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/whiteMain"
+            android:text="@string/under"
+            android:background="@color/bmiyellow"
+            android:textAlignment="center"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/whiteMain"
+            android:text="@string/normal"
+            android:background="@color/bmigreen"
+            android:textAlignment="center"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="400dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/whiteMain"
+            android:text="@string/over"
+            android:background="@color/bmiorange"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/whiteMain"
+            android:text="@string/obese"
+            android:background="@color/bmired"
+            android:textAlignment="center"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+
+</FrameLayout>
+
